@@ -1,20 +1,8 @@
 Работа с Git:
 1) d:
-2) cd D:\Python's_projects\Django_testproject\djsite\mysite
+2) cd "Полный путь к проекту"
 3) git status
 4.1) git add . (добавить ВСЁ)
 4.2) git add "название файла" (для конкретного файла)
 5) git commit -m "Название коммита"
 6) git push -u origin master
-
-Запуск Django:
-1) d:
-2) cd D:\Python's_projects\Django_testproject\djsite
-3) djsite\Scripts\activate.bat
-4) cd mysite
-5) python manage.py runserver
-
-Деактивация виртуального окрудения:
-1) cd ..
-2) djsite\Scripts\deactivate.bat
-3) c:

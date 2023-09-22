@@ -10,11 +10,12 @@ TODO:
     --Названия колонок - на латинице, подчёркивания вместо пробелов.
 """
 
+#PATH = ""
 players = ['ФИО', 'Балл за сезон', 'Стоимость контракта', 'Название команды']
 
 def load_data_xl(columns):
 
-    data = pd.read_excel('test_data.xlsx', usecols=columns)
+    data = pd.read_excel('test_data_1.xlsx', usecols=columns)
     return data
 
 
